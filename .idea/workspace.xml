@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c27cba-639b-419e-9bda-fdb2c4544250" name="Changes" comment="" />
+    <list default="true" id="f7c27cba-639b-419e-9bda-fdb2c4544250" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tech-with-rjhare"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tech-with-rjhare/citbank-cd-calculator-automation",
+    "accountId": "b52a6eaf-e9c5-48df-a19f-e706d6b1dd69"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -31,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.G:/Automation/automate-citbank-cd-calculator/testng.xml.executor": "Run",
     "TestNG.TestCDCalculator (1).executor": "Run",
     "TestNG.TestCDCalculator.executor": "Run",
@@ -41,6 +60,7 @@
     "TestNG.TestCDCalculator.testTitleOfPage.executor": "Debug",
     "TestNG.testCdCalculator.executor": "Run",
     "TestNG.testcdcalculator.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "G:/Automation/automate-citbank-cd-calculator/src/main/java/com/cit/Main.java",
     "project.structure.last.edited": "SDKs",
