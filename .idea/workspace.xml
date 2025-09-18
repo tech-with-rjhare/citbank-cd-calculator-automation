@@ -37,27 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.G:/Automation/automate-citbank-cd-calculator/testng.xml.executor": "Run",
-    "TestNG.TestCDCalculator (1).executor": "Run",
-    "TestNG.TestCDCalculator.executor": "Run",
-    "TestNG.TestCDCalculator.testCIMonthly (1).executor": "Run",
-    "TestNG.TestCDCalculator.testCIMonthly (2).executor": "Run",
-    "TestNG.TestCDCalculator.testCIMonthly (3).executor": "Run",
-    "TestNG.TestCDCalculator.testCIMonthly.executor": "Run",
-    "TestNG.TestCDCalculator.testTitleOfPage.executor": "Run",
-    "TestNG.testCdCalculator.executor": "Run",
-    "TestNG.testcdcalculator.executor": "Run",
-    "git-widget-placeholder": "feature/add-cd-calculator-tests",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "G:/Automation/automate-citbank-cd-calculator/src/main/java/com/cit/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.G:/Automation/automate-citbank-cd-calculator/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator.testCIMonthly (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator.testCIMonthly (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator.testCIMonthly (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator.testCIMonthly.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCDCalculator.testTitleOfPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testCdCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testcdcalculator.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/add-cd-calculator-tests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;G:/Automation/automate-citbank-cd-calculator/src/main/java/com/cit/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.G:/Automation/automate-citbank-cd-calculator/testng.xml">
     <configuration name="G:/Automation/automate-citbank-cd-calculator/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automate-citbank-cd-calculator" />
