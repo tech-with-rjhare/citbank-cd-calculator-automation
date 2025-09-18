@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c27cba-639b-419e-9bda-fdb2c4544250" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cit/utils/ExcelUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cit/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cit/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testdata_cdcalculator.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testdata_cdcalculator.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cit/tests/TestCDCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cit/tests/TestCDCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -142,8 +142,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.G:/Automation/automate-citbank-cd-calculator/testng.xml" />
-        <item itemvalue="TestNG.TestCDCalculator.testCIMonthly" />
         <item itemvalue="TestNG.TestCDCalculator" />
+        <item itemvalue="TestNG.TestCDCalculator.testCIMonthly" />
         <item itemvalue="TestNG.TestCDCalculator.testTitleOfPage" />
         <item itemvalue="TestNG.TestCDCalculator (1)" />
       </list>

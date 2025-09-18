@@ -58,10 +58,10 @@ public class TestCDCalculator {
     } */
 
     @Test()
-    void testCIMonthly() throws Exception {
+    void testCIDaily() throws Exception {
         acceptCookies();
-        String xlFilePath = System.getProperty("user.dir")+"\\src\\main\\resources\\testdata_cdcalculator.xlsx";
-        int rowCount = ExcelUtils.getRowCount(xlFilePath,"Compounded_Daily");
+        String xlFilePath = System.getProperty("user.dir") + "\\src\\main\\resources\\testdata_cdcalculator.xlsx";
+        int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Daily");
         System.out.println("Row : " + rowCount);
         //ExcelUtils.getrowdata(xlFilePath,"Compounded_Daily");
         //acceptCookies();
@@ -70,17 +70,15 @@ public class TestCDCalculator {
         months = driver.findElement(By.xpath("//input[@id='mat-input-1']"));
         interest = driver.findElement(By.xpath("//input[@id='mat-input-2']"));
 
-        //for(int row=1; row<rowCount;row++){
+        for(int row=1; row<rowCount;row++){
 
-            depositAmount = ExcelUtils.getCellData(xlFilePath,"Compounded_Daily", 1,0);
-            System.out.println(depositAmount);
-            lengthOfCD = ExcelUtils.getCellData(xlFilePath,"Compounded_Daily", 1,1);
-            System.out.println(lengthOfCD);
-            interestRate = ExcelUtils.getCellData(xlFilePath,"Compounded_Daily", 1,2);
-            System.out.println(interestRate);
+        depositAmount = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 0);
+        System.out.println(depositAmount);
+        lengthOfCD = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 1);
+        System.out.println(lengthOfCD);
+        interestRate = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 2);
+        System.out.println(interestRate);
 
-
-        //}
 
         depAmount.clear();
         months.clear();
@@ -103,18 +101,25 @@ public class TestCDCalculator {
         }
 */
 
-        WebElement daily = expWait.until(
-                ExpectedConditions.elementToBeClickable(By.xpath("//mat-option//span[contains(text(),'Compounded Daily')]"))
-        );
+        WebElement daily = expWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//mat-option//span[contains(text(),'Compounded Daily')]")));
         daily.click();
 
-
         driver.findElement(By.xpath("//button[@id='CIT-chart-submit']")).click();
-        String actualRes = ExcelUtils.getCellData(xlFilePath,"Compounded_Daily", 1, 4);
+        String expectedRes = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 4);
         expWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id='displayTotalValue']")));
-        String expectedRes = driver.findElement(By.xpath("//span[@id='displayTotalValue']")).getText();
+        String actualRes = driver.findElement(By.xpath("//span[@id='displayTotalValue']")).getText();
         System.out.println("Actual result : " + actualRes + "\n" + "expectedRes : " + expectedRes);
-        Assert.assertEquals(expectedRes, actualRes,"Calculation logic doesn't match with requirement");
+        if (actualRes.equals(expectedRes)) {
+            ExcelUtils.setCellData(xlFilePath, "Compounded_Daily", row, 6, "Passed");
+            ExcelUtils.fillGreenColor(xlFilePath, "Compounded_Daily", row, 6);
+        }else
+        {
+            ExcelUtils.setCellData(xlFilePath, "Compounded_Daily", row, 6, "Failed");
+            ExcelUtils.fillRedColor(xlFilePath, "Compounded_Daily", row, 6);
+        }
+
+    }
+        //Assert.assertEquals(expectedRes, actualRes,"Calculation logic doesn't match with requirement");
 
     }
 

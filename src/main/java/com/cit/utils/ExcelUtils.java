@@ -1,20 +1,23 @@
 package com.cit.utils;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.xssf.usermodel.*;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class ExcelUtils {
     private static FileInputStream fi;
+    private static FileOutputStream fo;
     private static XSSFWorkbook workbook;
     private static XSSFSheet sheet;
     private static XSSFRow row;
     private static XSSFCell cell;
     private static DataFormatter formatter;
+    private static XSSFCellStyle style;
 
     public static int getRowCount(String xlfilepath, String xlSheet) throws Exception{
     fi = new FileInputStream(xlfilepath);
@@ -45,7 +48,8 @@ public class ExcelUtils {
         return data;
     }
 
-    public static void getrowdata(String xlFilePath, String xlSheet) throws Exception{
+    // Just check that datas of rows
+    /*public static void getrowdata(String xlFilePath, String xlSheet) throws Exception{
 
         formatter = new DataFormatter();
         fi = new FileInputStream(xlFilePath);
@@ -66,5 +70,66 @@ public class ExcelUtils {
             System.out.println();
         }
     }
+*/
+    public static void setCellData(String xlFilePath, String xlSheet, int rowNum, int colNum, String data) throws Exception{
+
+        fi = new FileInputStream(xlFilePath);
+        workbook = new XSSFWorkbook(fi);
+        sheet = workbook.getSheet(xlSheet);
+
+        row = sheet.getRow(rowNum);
+        if(row == null) row = workbook.createSheet().getRow(rowNum);
+
+        cell = row.getCell(colNum);
+        if(cell == null) cell = row.createCell(colNum);
+
+        cell.setCellValue(data);
+        fi.close();
+
+        fo = new FileOutputStream(xlFilePath);
+        workbook.write(fo);
+
+        workbook.close();
+        fo.close();
+    }
+
+    public static void fillGreenColor(String xlFilePath, String xlSheet, int rowNum, int colNum) throws IOException {
+        fi = new FileInputStream(xlFilePath);
+        workbook = new XSSFWorkbook(fi);
+        sheet = workbook.getSheet(xlSheet);
+        row = sheet.getRow(rowNum);
+        cell = row.getCell(colNum);
+
+        style = workbook.createCellStyle();
+        style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
+        style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        cell.setCellStyle(style);
+        fi.close();
+
+        fo = new FileOutputStream(xlFilePath);
+        workbook.write(fo);
+        workbook.close();
+        fo.close();
+    }
+
+    public static void fillRedColor(String xlFilePath, String xlSheet, int rowNum, int colNum) throws IOException {
+        fi = new FileInputStream(xlFilePath);
+        workbook = new XSSFWorkbook(fi);
+        sheet = workbook.getSheet(xlSheet);
+        row = sheet.getRow(rowNum);
+        cell = row.getCell(colNum);
+
+        style = workbook.createCellStyle();
+        style.setFillForegroundColor(IndexedColors.RED.getIndex());
+        style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        cell.setCellStyle(style);
+        fi.close();
+
+        fo = new FileOutputStream(xlFilePath);
+        workbook.write(fo);
+        workbook.close();
+        fo.close();
+    }
+
 
 }
