@@ -1,9 +1,12 @@
 target/
+.idea/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+<<<<<<< HEAD
 .idea/misc.xml
 .idea/workspace.xml
 .idea/modules.xml
@@ -13,6 +16,10 @@ target/
 *.iws
 *.iml
 *.ipr
+=======
+
+~$*.xlsx
+>>>>>>> 5f2e63a80e866ca58c9651445b0dee64460eaace
 
 ### Eclipse ###
 .apt_generated
@@ -23,15 +30,6 @@ target/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
