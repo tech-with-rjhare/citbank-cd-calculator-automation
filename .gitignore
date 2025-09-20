@@ -6,8 +6,20 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+<<<<<<< HEAD
+.idea/misc.xml
+.idea/workspace.xml
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+=======
 
 ~$*.xlsx
+>>>>>>> 5f2e63a80e866ca58c9651445b0dee64460eaace
 
 ### Eclipse ###
 .apt_generated
