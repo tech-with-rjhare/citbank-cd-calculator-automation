@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="MyTestSuite" parallel="false">
+<!-- parallel = "Test" should execute each test in parallely
+    if not all the Tests are run serially
+    for parallel testing <suite name="MyTestSuite" thread-count="5" parallel="tests">
+-->
+<suite name="MyTestSuite" thread-count="5">
 
-    <test name="MyTest">
+    <test name="Chrome-test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="aut_url" value="https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator"/>
+        <classes>
+            <class name="com.cit.tests.TestCDCalculator" />
+        </classes>
+    </test>
+
+    <test name="edge-test">
+        <parameter name="browser" value="edge"/>
+        <parameter name="aut_url" value="https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator"/>
         <classes>
             <class name="com.cit.tests.TestCDCalculator" />
         </classes>
