@@ -43,7 +43,7 @@ public class TestCDCalculator {
 
     @BeforeMethod
     @Parameters({"browser","aut_url"})
-    void launchApplication(String br, String url){
+    void launchApplication(@Optional("chrome") String br,@Optional("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator") String url){
 
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
@@ -66,8 +66,7 @@ public class TestCDCalculator {
     }
 
     @Test(priority = 1,dependsOnMethods = {"testTitleOfPage"})
-    @Parameters({"browser"})
-    void testCIDaily(String bro) throws Exception {
+    void testCIDaily() throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\src\\main\\resources\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Daily");
         //System.out.println("Row : " + rowCount);
@@ -83,7 +82,7 @@ public class TestCDCalculator {
         depositAmount = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 0);
         lengthOfCD = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 1);
         interestRate = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 2);
-        System.out.println(depositAmount +" | "+lengthOfCD+" | "+interestRate);
+        //System.out.println(depositAmount +" | "+lengthOfCD+" | "+interestRate);
 
 
         depAmount.clear();
@@ -114,8 +113,7 @@ public class TestCDCalculator {
         String expectedRes = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 4);
         expWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id='displayTotalValue']")));
         String actualRes = driver.findElement(By.xpath("//span[@id='displayTotalValue']")).getText();
-        System.out.println("Actual result : " + actualRes + " " + "expectedRes : " + expectedRes);
-        if(bro.equals("chrome")) {
+        //System.out.println("Actual result : " + actualRes + " " + "expectedRes : " + expectedRes);
             if (actualRes.equals(expectedRes)) {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Daily", row, 6, "Passed");
                 ExcelUtils.fillGreenColor(xlFilePath, "Compounded_Daily", row, 6);
@@ -123,7 +121,6 @@ public class TestCDCalculator {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Daily", row, 6, "Failed");
                 ExcelUtils.fillRedColor(xlFilePath, "Compounded_Daily", row, 6);
             }
-        }
 
     }
             //Assert.assertEquals(expectedRes, actualRes,"Calculation logic doesn't match with requirement");
@@ -145,7 +142,7 @@ public class TestCDCalculator {
             depositAmount = ExcelUtils.getCellData(xlFilePath, "Compounded_Monthly", row, 0);
             lengthOfCD = ExcelUtils.getCellData(xlFilePath, "Compounded_Monthly", row, 1);
             interestRate = ExcelUtils.getCellData(xlFilePath, "Compounded_Monthly", row, 2);
-            System.out.println(depositAmount +" | "+lengthOfCD+" | "+interestRate);
+            //System.out.println(depositAmount +" | "+lengthOfCD+" | "+interestRate);
 
 
             depAmount.clear();
@@ -166,7 +163,7 @@ public class TestCDCalculator {
             String expectedRes = ExcelUtils.getCellData(xlFilePath, "Compounded_Monthly", row, 4);
             expWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id='displayTotalValue']")));
             String actualRes = driver.findElement(By.xpath("//span[@id='displayTotalValue']")).getText();
-            System.out.println("Actual result : " + actualRes + "\n" + "expectedRes : " + expectedRes);
+            //System.out.println("Actual result : " + actualRes + "\n" + "expectedRes : " + expectedRes);
             /*if (actualRes.equals(expectedRes)) {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Monthly", row, 6, "Passed");
                 ExcelUtils.fillGreenColor(xlFilePath, "Compounded_Monthly", row, 6);
