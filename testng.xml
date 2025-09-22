@@ -8,7 +8,7 @@
 <suite name="MyTestSuite" thread-count="5">
 
     <listeners>
-        <listener class-name="com.cit.listners.listner" />
+        <listener class-name="com.cit.utils.ExtentReportManager"/>
     </listeners>
 
     <test name="Chrome-test">
