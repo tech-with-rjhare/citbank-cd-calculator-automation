@@ -6,11 +6,10 @@ import com.cit.utils.ExcelUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
+
 import java.time.Duration;
-import java.util.List;
 
 
 
@@ -32,7 +31,6 @@ public class TestCDCalculator {
     @BeforeMethod
     @Parameters({"browser","aut_url"})
     void launchApplication(@Optional("chrome") String br,@Optional("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator") String url){
-
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
             case "chrome": driver = new ChromeDriver();break;
