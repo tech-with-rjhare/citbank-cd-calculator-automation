@@ -31,7 +31,6 @@ public class TestCDCalculator {
     @BeforeMethod
     @Parameters({"browser","aut_url"})
     void launchApplication(@Optional("chrome") String br,@Optional("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator") String url){
-
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
             case "chrome": driver = new ChromeDriver();break;
