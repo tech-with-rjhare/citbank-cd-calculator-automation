@@ -6,6 +6,7 @@ import com.cit.utils.ExcelUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
@@ -34,6 +35,7 @@ public class TestCDCalculator {
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
             case "chrome": driver = new ChromeDriver();break;
+            case "firefox": driver = new FirefoxDriver(); break;
             default: System.out.println("Invalid browser");return;
         }
         driver.get(url);
@@ -52,7 +54,7 @@ public class TestCDCalculator {
 
     @Test(priority = 1,dependsOnMethods = {"testTitleOfPage"})
     void testCIDaily() throws Exception {
-        String xlFilePath = System.getProperty("user.dir") + "\\src\\main\\resources\\testdata_cdcalculator.xlsx";
+        String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Daily");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -87,7 +89,7 @@ public class TestCDCalculator {
 
     @Test(priority = 2,dependsOnMethods = {"testTitleOfPage"})
     void testCIMonthly() throws Exception {
-        String xlFilePath = System.getProperty("user.dir") + "\\src\\main\\resources\\testdata_cdcalculator.xlsx";
+        String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Monthly");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -123,7 +125,7 @@ public class TestCDCalculator {
     @AfterMethod
     void tearDown(){
         if (driver != null) {
-            driver.quit();   // ✅ Har test ke baad browser close
+            driver.quit();
         }
     }
 
