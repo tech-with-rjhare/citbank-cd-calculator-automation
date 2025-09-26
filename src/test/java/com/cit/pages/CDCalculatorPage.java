@@ -4,19 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-public class CDCalculatorPage {
-    private WebDriver driver;
-    private WebDriverWait wait;
+public class CDCalculatorPage extends BasePage{
 
     //Constructor
     public CDCalculatorPage(WebDriver driver){
 
-        this.driver=driver;
-        this.wait = new WebDriverWait(this.driver,Duration.ofSeconds(10));
+        super(driver);
     }
 
     //Locators
