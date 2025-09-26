@@ -1,59 +1,31 @@
 package com.cit.tests;
 
 
-import com.cit.pages.CDCalculatorPage;
 import com.cit.utils.ExcelUtils;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 
 
 
-public class TestCDCalculator {
+public class TestCDCalculator extends BaseClass{
 
-    WebDriver driver;
-    SoftAssert softAssert;
     private String depositAmount = null;
     private String lengthOfCD = null; // In months
     private String interestRate = null;
-    private CDCalculatorPage page;
 
-    @BeforeClass
-    void setup(){
-        softAssert = new SoftAssert();
-
-    }
-
-    @BeforeMethod
-    @Parameters({"browser","aut_url"})
-    void launchApplication(@Optional("chrome") String br,@Optional("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator") String url){
-        switch (br.toLowerCase()){
-            case "edge": driver = new EdgeDriver(); break;
-            case "chrome": driver = new ChromeDriver();break;
-            case "firefox": driver = new FirefoxDriver(); break;
-            default: System.out.println("Invalid browser");return;
-        }
-        driver.get(url);
-        page = new CDCalculatorPage(driver);
-        page.maximizeWindow();
-        page.acceptCookies();
-    }
 
     @Test()
-     void testTitleOfPage(){
+     void TC001_testTitleOfPage(){
+        logger.info("***** Starting TC001_testTitleOfPage  ****");
+        logger.debug("This is a debug log message");
         String titleOfPage = "CD Calculator | Certificate of Deposit Calculator | CIT Bank";
         softAssert.assertEquals(titleOfPage,page.expectedTitleOfPage());
-        System.out.println("Title of page : "+driver.getTitle());
         softAssert.assertAll();
     }
 
     @Test(priority = 1,dependsOnMethods = {"testTitleOfPage"})
-    void testCIDaily() throws Exception {
+    void TC002_testCIDaily() throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Daily");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -88,7 +60,7 @@ public class TestCDCalculator {
     }
 
     @Test(priority = 2,dependsOnMethods = {"testTitleOfPage"})
-    void testCIMonthly() throws Exception {
+    void TC003_testCIMonthly() throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Monthly");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -122,11 +94,5 @@ public class TestCDCalculator {
 
     }
 
-    @AfterMethod
-    void tearDown(){
-        if (driver != null) {
-            driver.quit();
-        }
-    }
 
 }
