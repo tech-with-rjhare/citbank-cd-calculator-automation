@@ -23,13 +23,13 @@ public class BaseClass {
     }
 
     @BeforeMethod
-    @Parameters({"browser","aut_url"})
-    void launchApplication(@Optional("chrome") String br, @Optional("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator") String url){
+    @Parameters({"browser","aut_url","OS"})
+    void launchApplication(String br, String url,String os){
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
             case "chrome": driver = new ChromeDriver();break;
             case "firefox": driver = new FirefoxDriver(); break;
-            default: System.out.println("Invalid browser");return;
+            default: logger.info("************ INVALID BROWSER ************");return;
         }
         driver.get(url);
         page = new CDCalculatorPage(driver);
