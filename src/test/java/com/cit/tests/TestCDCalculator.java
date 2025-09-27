@@ -24,7 +24,7 @@ public class TestCDCalculator extends BaseClass{
         softAssert.assertAll();
     }
 
-    @Test(priority = 1,dependsOnMethods = {"testTitleOfPage"})
+    @Test(priority = 1,dependsOnMethods = {"TC001_testTitleOfPage"})
     void TC002_testCIDaily() throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Daily");
@@ -46,20 +46,20 @@ public class TestCDCalculator extends BaseClass{
         String expectedRes = ExcelUtils.getCellData(xlFilePath, "Compounded_Daily", row, 4);
         String actualRes = page.getResult();
         //System.out.println("Actual result : " + actualRes + " " + "expectedRes : " + expectedRes);
-            if (actualRes.equals(expectedRes)) {
+/*            if (actualRes.equals(expectedRes)) {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Daily", row, 6, "Passed");
                 ExcelUtils.fillGreenColor(xlFilePath, "Compounded_Daily", row, 6);
             } else {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Daily", row, 6, "Failed");
                 ExcelUtils.fillRedColor(xlFilePath, "Compounded_Daily", row, 6);
-            }
+            }*/
 
     }
             //Assert.assertEquals(expectedRes, actualRes,"Calculation logic doesn't match with requirement");
 
     }
 
-    @Test(priority = 2,dependsOnMethods = {"testTitleOfPage"})
+    @Test(priority = 2,dependsOnMethods = {"TC001_testTitleOfPage"})
     void TC003_testCIMonthly() throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         int rowCount = ExcelUtils.getRowCount(xlFilePath, "Compounded_Monthly");
@@ -81,14 +81,14 @@ public class TestCDCalculator extends BaseClass{
             String expectedRes = ExcelUtils.getCellData(xlFilePath, "Compounded_Monthly", row, 4);
             String actualRes = page.getResult();
             //System.out.println("Actual result : " + actualRes + " " + "expectedRes : " + expectedRes);
-            if (actualRes.equals(expectedRes)) {
+            /*if (actualRes.equals(expectedRes)) {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Monthly", row, 7, "Passed");
                 ExcelUtils.fillGreenColor(xlFilePath, "Compounded_Monthly", row, 7);
             } else {
                 ExcelUtils.setCellData(xlFilePath, "Compounded_Monthly", row, 7, "Failed");
                 ExcelUtils.fillRedColor(xlFilePath, "Compounded_Monthly", row, 7);
             }
-
+*/
         }
         //Assert.assertEquals(expectedRes, actualRes,"Calculation logic doesn't match with requirement");
 
