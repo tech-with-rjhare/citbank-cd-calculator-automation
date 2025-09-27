@@ -10,11 +10,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+
 public class BaseClass {
     protected WebDriver driver;
     protected SoftAssert softAssert;
     protected CDCalculatorPage page;
     protected Logger logger;
+    protected Properties properties;
 
     @BeforeClass
     void setup(){
@@ -23,15 +30,20 @@ public class BaseClass {
     }
 
     @BeforeMethod
-    @Parameters({"browser","aut_url","OS"})
-    void launchApplication(String br, String url,String os){
+    @Parameters({"browser","OS"})
+    void launchApplication(String br,String os) throws IOException {
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
             case "chrome": driver = new ChromeDriver();break;
             case "firefox": driver = new FirefoxDriver(); break;
             default: logger.info("************ INVALID BROWSER ************");return;
         }
-        driver.get(url);
+
+        FileInputStream fi = new FileInputStream("./src//test//resources//config.properties");
+        properties = new Properties();
+        properties.load(fi);
+
+        driver.get(properties.getProperty("aut_url"));
         page = new CDCalculatorPage(driver);
         page.maximizeWindow();
         page.acceptCookies();
