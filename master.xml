@@ -9,7 +9,6 @@
     <test thread-count="5" name="Test">
         <parameter name="OS" value="Windows"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="aut_url" value="https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator"/>
         <classes>
             <class name="com.cit.tests.TestCDCalculator"/>
         </classes>
