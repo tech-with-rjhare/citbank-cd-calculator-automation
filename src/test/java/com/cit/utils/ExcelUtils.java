@@ -6,21 +6,25 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.*;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ExcelUtils {
-    private static FileInputStream fi;
-    private static FileOutputStream fo;
-    private static XSSFWorkbook workbook;
-    private static XSSFSheet sheet;
-    private static XSSFRow row;
-    private static XSSFCell cell;
-    private static DataFormatter formatter;
-    private static XSSFCellStyle style;
+    private FileInputStream fi;
+    private FileOutputStream fo;
+    private XSSFWorkbook workbook;
+    private XSSFSheet sheet;
+    private XSSFRow row;
+    private XSSFCell cell;
+    private DataFormatter formatter;
+    private XSSFCellStyle style;
+    private String xlfilepath;
 
-    public static int getRowCount(String xlfilepath, String xlSheet) throws Exception{
+    public ExcelUtils(String xlfilepath){
+        this.xlfilepath = xlfilepath;
+    }
+
+    public int getRowCount(String xlSheet) throws IOException{
     fi = new FileInputStream(xlfilepath);
     workbook = new XSSFWorkbook(fi);
     sheet = workbook.getSheet(xlSheet);
@@ -30,7 +34,7 @@ public class ExcelUtils {
     return (rowCount);
     }
 
-    public static int getCellCount(String xlfilepath, String xlSheet) throws Exception {
+    public int getCellCount(String xlSheet) throws IOException {
         int cellCount = 0;
         fi = new FileInputStream(xlfilepath);
         workbook = new XSSFWorkbook(fi);
@@ -42,8 +46,8 @@ public class ExcelUtils {
         return cellCount;
     }
 
-    public static String getCellData(String xlFilePath, String xlSheet, int rowNum, int colNum) throws Exception{
-    fi = new FileInputStream(xlFilePath);
+    public String getCellData(String xlSheet, int rowNum, int colNum) throws IOException{
+    fi = new FileInputStream(xlfilepath);
     workbook = new XSSFWorkbook(fi);
     sheet = workbook.getSheet(xlSheet);
     row = sheet.getRow(rowNum);
@@ -84,9 +88,9 @@ public class ExcelUtils {
         }
     }
 */
-    public static void setCellData(String xlFilePath, String xlSheet, int rowNum, int colNum, String data) throws Exception{
+    public void setCellData(String xlSheet, int rowNum, int colNum, String data) throws IOException{
 
-        fi = new FileInputStream(xlFilePath);
+        fi = new FileInputStream(xlfilepath);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(xlSheet);
 
@@ -99,15 +103,15 @@ public class ExcelUtils {
         cell.setCellValue(data);
         fi.close();
 
-        fo = new FileOutputStream(xlFilePath);
+        fo = new FileOutputStream(xlfilepath);
         workbook.write(fo);
 
         workbook.close();
         fo.close();
     }
 
-    public static void fillGreenColor(String xlFilePath, String xlSheet, int rowNum, int colNum) throws IOException {
-        fi = new FileInputStream(xlFilePath);
+    public void fillGreenColor(String xlSheet, int rowNum, int colNum) throws IOException {
+        fi = new FileInputStream(xlfilepath);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(xlSheet);
         row = sheet.getRow(rowNum);
@@ -119,14 +123,14 @@ public class ExcelUtils {
         cell.setCellStyle(style);
         fi.close();
 
-        fo = new FileOutputStream(xlFilePath);
+        fo = new FileOutputStream(xlfilepath);
         workbook.write(fo);
         workbook.close();
         fo.close();
     }
 
-    public static void fillRedColor(String xlFilePath, String xlSheet, int rowNum, int colNum) throws IOException {
-        fi = new FileInputStream(xlFilePath);
+    public void fillRedColor(String xlSheet, int rowNum, int colNum) throws IOException {
+        fi = new FileInputStream(xlfilepath);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(xlSheet);
         row = sheet.getRow(rowNum);
@@ -138,7 +142,7 @@ public class ExcelUtils {
         cell.setCellStyle(style);
         fi.close();
 
-        fo = new FileOutputStream(xlFilePath);
+        fo = new FileOutputStream(xlfilepath);
         workbook.write(fo);
         workbook.close();
         fo.close();
@@ -147,8 +151,8 @@ public class ExcelUtils {
 
     public static void main(String[] args) throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
-
-        System.out.println("Row " + ExcelUtils.getRowCount(xlFilePath,"Compounded_Daily"));
-        System.out.println("Cell " + ExcelUtils.getCellCount(xlFilePath,"Compounded_Daily"));
+        ExcelUtils xlfile = new ExcelUtils(xlFilePath);
+        System.out.println("Row " + xlfile.getRowCount("Compounded_Daily"));
+        System.out.println("Cell " + xlfile.getCellCount("Compounded_Daily"));
     }
 }
