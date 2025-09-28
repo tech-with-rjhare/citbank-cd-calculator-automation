@@ -6,6 +6,7 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.*;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -23,10 +24,22 @@ public class ExcelUtils {
     fi = new FileInputStream(xlfilepath);
     workbook = new XSSFWorkbook(fi);
     sheet = workbook.getSheet(xlSheet);
-    int rowCount = sheet.getLastRowNum();
+    int rowCount = sheet.getPhysicalNumberOfRows();
     workbook.close();
     fi.close();
-    return (rowCount+1);
+    return (rowCount);
+    }
+
+    public static int getCellCount(String xlfilepath, String xlSheet) throws Exception {
+        int cellCount = 0;
+        fi = new FileInputStream(xlfilepath);
+        workbook = new XSSFWorkbook(fi);
+        sheet = workbook.getSheet(xlSheet);
+        row = sheet.getRow(1);
+        cellCount=row.getPhysicalNumberOfCells();
+        workbook.close();
+        fi.close();
+        return cellCount;
     }
 
     public static String getCellData(String xlFilePath, String xlSheet, int rowNum, int colNum) throws Exception{
@@ -48,8 +61,8 @@ public class ExcelUtils {
         return data;
     }
 
-    // Just check that datas of rows
-    /*public static void getrowdata(String xlFilePath, String xlSheet) throws Exception{
+    /* // Just check that datas of rows
+    public static void getrowdata(String xlFilePath, String xlSheet) throws Exception{
 
         formatter = new DataFormatter();
         fi = new FileInputStream(xlFilePath);
@@ -132,4 +145,10 @@ public class ExcelUtils {
     }
 
 
+    public static void main(String[] args) throws Exception {
+        String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
+
+        System.out.println("Row " + ExcelUtils.getRowCount(xlFilePath,"Compounded_Daily"));
+        System.out.println("Cell " + ExcelUtils.getCellCount(xlFilePath,"Compounded_Daily"));
+    }
 }

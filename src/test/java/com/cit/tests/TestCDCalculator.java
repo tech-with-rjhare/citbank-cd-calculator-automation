@@ -1,14 +1,14 @@
 package com.cit.tests;
 
 
+import com.cit.testBase.BaseClass;
 import com.cit.utils.ExcelUtils;
 import org.testng.annotations.Test;
-
 import java.time.Duration;
 
 
 
-public class TestCDCalculator extends BaseClass{
+public class TestCDCalculator extends BaseClass {
 
     private String depositAmount = null;
     private String lengthOfCD = null; // In months
