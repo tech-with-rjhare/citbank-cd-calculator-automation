@@ -12,6 +12,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 
@@ -38,6 +39,7 @@ public class BaseClass {
             default: logger.info("************ INVALID BROWSER ************");return;
         }
 
+        logger.info("-------------------- Launching Application ---------------------");
         FileInputStream fi = new FileInputStream("./src//test//resources//config.properties");
         properties = new Properties();
         properties.load(fi);
@@ -46,11 +48,13 @@ public class BaseClass {
         page = new CDCalculatorPage(driver);
         page.maximizeWindow();
         page.acceptCookies();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @AfterMethod
     public void tearDown(){
         if (driver != null) {
+            logger.info("------------------- Browser closed -------------------");
             driver.quit();
         }
     }

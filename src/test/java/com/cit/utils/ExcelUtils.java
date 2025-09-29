@@ -65,14 +65,14 @@ public class ExcelUtils {
         return data;
     }
 
-    /* // Just check that datas of rows
-    public static void getrowdata(String xlFilePath, String xlSheet) throws Exception{
+     /*// Just check that datas of rows
+    public void getrowdata(String xlSheet) throws Exception{
 
         formatter = new DataFormatter();
-        fi = new FileInputStream(xlFilePath);
+        fi = new FileInputStream(xlfilepath);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(xlSheet);
-        int rowCount = getRowCount(xlFilePath,xlSheet);
+        int rowCount = getRowCount(xlSheet);
         int cellCount = 0;
         for(int i =0;i< rowCount;i++){
             row = sheet.getRow(i);
@@ -86,8 +86,7 @@ public class ExcelUtils {
 
             System.out.println();
         }
-    }
-*/
+    }*/
     public void setCellData(String xlSheet, int rowNum, int colNum, String data) throws IOException{
 
         fi = new FileInputStream(xlfilepath);
@@ -149,10 +148,11 @@ public class ExcelUtils {
     }
 
 
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
         String xlFilePath = System.getProperty("user.dir") + "\\test-data\\testdata_cdcalculator.xlsx";
         ExcelUtils xlfile = new ExcelUtils(xlFilePath);
         System.out.println("Row " + xlfile.getRowCount("Compounded_Daily"));
         System.out.println("Cell " + xlfile.getCellCount("Compounded_Daily"));
-    }
+        xlfile.getrowdata("Compounded_Daily");
+    }*/
 }

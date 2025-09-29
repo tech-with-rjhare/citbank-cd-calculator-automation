@@ -1,4 +1,915 @@
-2025-09-29 01:14:38 INFO  TestCDCalculator:20 - ***** Starting TC001_testTitleOfPage  ****
-2025-09-29 01:17:48 INFO  TestCDCalculator:20 - ***** Starting TC001_testTitleOfPage  ****
-2025-09-29 03:35:08 INFO  TestCDCalculator:22 - ***** Starting TC001_testTitleOfPage  ****
-2025-09-29 03:44:55 INFO  TestCDCalculator:22 - ***** Starting TC001_testTitleOfPage  ****
+2025-09-30 02:02:19 INFO  TC001_Test_CD_Calculator_Page_Title:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:02:25 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-09-30 02:02:26 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-09-30 02:02:26 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-09-30 02:02:26 INFO  TC001_Test_CD_Calculator_Page_Title:57 - ------------------- Browser closed -------------------
+2025-09-30 02:02:30 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:02:34 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:02:36 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:02:36 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $32,050.75
+2025-09-30 02:02:36 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $32,050.75
+2025-09-30 02:02:36 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:02:36 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:02:37 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:02:42 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:02:43 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:02:44 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $51,010.04
+2025-09-30 02:02:44 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $51,010.04
+2025-09-30 02:02:44 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:02:44 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:02:45 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:02:49 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:02:50 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:02:50 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $25,916.37
+2025-09-30 02:02:50 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $25,916.37
+2025-09-30 02:02:50 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:02:50 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:02:52 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:02:56 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:02:58 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:02:58 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $113,314.36
+2025-09-30 02:02:58 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $113,314.36
+2025-09-30 02:02:58 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:02:58 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:02:59 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:03 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:04 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:04 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $15,643.40
+2025-09-30 02:03:04 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $15,643.40
+2025-09-30 02:03:04 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:04 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:06 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:10 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:11 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:11 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $1.00
+2025-09-30 02:03:11 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $1.00
+2025-09-30 02:03:11 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:11 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:12 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:19 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:20 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:20 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $16,486,646.49
+2025-09-30 02:03:20 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $16,486,646.49
+2025-09-30 02:03:20 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:20 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:22 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:25 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:27 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:27 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $31,981.41
+2025-09-30 02:03:27 ERROR TC002_Test_CD_Calculator_Daily_DDT:32 - ❌ Validation Failed - Expected: $16,486,646.49 | Actual: $31,981.41
+2025-09-30 02:03:27 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:27 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:28 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:34 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:35 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:35 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $30,483.85
+2025-09-30 02:03:35 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $30,483.85
+2025-09-30 02:03:35 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:35 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:37 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:41 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:42 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:42 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $30,483.85
+2025-09-30 02:03:42 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $30,483.85
+2025-09-30 02:03:42 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:42 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:43 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:47 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:49 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:49 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $30,301.50
+2025-09-30 02:03:49 INFO  TC002_Test_CD_Calculator_Daily_DDT:30 - ✅ Validation Passed - Expected = Actual = $30,301.50
+2025-09-30 02:03:49 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:49 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:51 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:03:55 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:03:56 INFO  TC002_Test_CD_Calculator_Daily_DDT:24 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:03:56 INFO  TC002_Test_CD_Calculator_Daily_DDT:27 - Application Result -> $31,981.41
+2025-09-30 02:03:56 ERROR TC002_Test_CD_Calculator_Daily_DDT:32 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $31,981.41
+2025-09-30 02:03:56 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:03:56 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:03:58 INFO  TC002_Test_CD_Calculator_Daily_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:04:02 INFO  TC002_Test_CD_Calculator_Daily_DDT:18 - ************** START: TC002_Test_CD_Calculator_Daily ******************
+2025-09-30 02:04:03 ERROR TC002_Test_CD_Calculator_Daily_DDT:37 - ⚠ Exception occurred in TC002_testCIDaily:
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.cit.pages.CDCalculatorPage.enterDepositAmount(CDCalculatorPage.java:28)
+	at com.cit.tests.TC002_Test_CD_Calculator_Daily_DDT.verify_CD_calculator_Daily(TC002_Test_CD_Calculator_Daily_DDT.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:04:03 INFO  TC002_Test_CD_Calculator_Daily_DDT:40 - ********** END: TC002_Test_CD_Calculator_Daily **********
+2025-09-30 02:04:03 INFO  TC002_Test_CD_Calculator_Daily_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:16:22 INFO  TC001_Test_CD_Calculator_Page_Title:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:16:27 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-09-30 02:16:27 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-09-30 02:16:27 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-09-30 02:16:27 INFO  TC001_Test_CD_Calculator_Page_Title:57 - ------------------- Browser closed -------------------
+2025-09-30 02:16:31 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:16:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:16:36 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:16:36 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $32,050.39
+2025-09-30 02:16:36 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $32,050.39
+2025-09-30 02:16:37 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:16:37 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:16:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:16:42 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:16:44 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:16:44 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $51,009.22
+2025-09-30 02:16:44 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $51,009.22
+2025-09-30 02:16:44 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:16:44 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:16:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:16:49 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:16:51 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:16:51 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $25,915.70
+2025-09-30 02:16:51 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $25,915.70
+2025-09-30 02:16:51 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:16:51 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:16:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:16:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:16:58 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:16:58 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $113,300.11
+2025-09-30 02:16:58 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $113,300.11
+2025-09-30 02:16:58 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:16:58 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:00 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $15,643.03
+2025-09-30 02:17:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $15,643.03
+2025-09-30 02:17:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:07 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:12 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:12 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $1.00
+2025-09-30 02:17:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $1.00
+2025-09-30 02:17:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:14 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:18 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $16,470,093.33
+2025-09-30 02:17:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $16,470,093.33
+2025-09-30 02:17:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:21 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:27 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:27 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $31,981.41
+2025-09-30 02:17:27 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $31,981.41
+2025-09-30 02:17:27 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:27 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:28 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:32 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,483.54
+2025-09-30 02:17:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $30,483.54
+2025-09-30 02:17:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:40 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:40 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,483.54
+2025-09-30 02:17:40 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,483.85 | Actual: $30,483.54
+2025-09-30 02:17:40 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:40 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:41 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:47 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:47 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,301.38
+2025-09-30 02:17:47 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $30,301.38
+2025-09-30 02:17:47 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:47 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:48 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:17:53 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:17:54 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $31,981.41
+2025-09-30 02:17:54 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $31,981.41
+2025-09-30 02:17:54 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:17:54 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:17:55 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:17:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:18:00 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.cit.pages.CDCalculatorPage.enterDepositAmount(CDCalculatorPage.java:28)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:18:00 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:18:00 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:20:49 INFO  TC001_Test_CD_Calculator_Page_Title:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:20:53 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-09-30 02:20:53 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-09-30 02:20:53 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-09-30 02:20:53 INFO  TC001_Test_CD_Calculator_Page_Title:57 - ------------------- Browser closed -------------------
+2025-09-30 02:20:58 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:02 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $32,050.39
+2025-09-30 02:21:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $32,050.39
+2025-09-30 02:21:03 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:05 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:09 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:10 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:10 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $51,009.22
+2025-09-30 02:21:10 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $51,009.22
+2025-09-30 02:21:10 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:10 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:10 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:12 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:16 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $25,915.70
+2025-09-30 02:21:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $25,915.70
+2025-09-30 02:21:17 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:18 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:23 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $113,300.11
+2025-09-30 02:21:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $113,300.11
+2025-09-30 02:21:25 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:26 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:30 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:31 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:31 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $15,643.03
+2025-09-30 02:21:31 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $15,643.03
+2025-09-30 02:21:31 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:31 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:31 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:37 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $1.00
+2025-09-30 02:21:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $1.00
+2025-09-30 02:21:38 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:38 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:39 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:43 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $16,470,093.33
+2025-09-30 02:21:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $16,470,093.33
+2025-09-30 02:21:45 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:46 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:50 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $31,981.41
+2025-09-30 02:21:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $31,981.41
+2025-09-30 02:21:52 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:21:53 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:21:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:21:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:21:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,483.54
+2025-09-30 02:21:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $30,483.54
+2025-09-30 02:21:59 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:21:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:21:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:22:00 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:22:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:22:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:22:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,483.54
+2025-09-30 02:22:06 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,483.85 | Actual: $30,483.54
+2025-09-30 02:22:06 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:22:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:22:06 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:22:07 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:22:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:22:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:22:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,301.38
+2025-09-30 02:22:13 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $30,301.38
+2025-09-30 02:22:13 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:22:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:22:13 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:22:14 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:22:18 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:22:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:22:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $31,981.41
+2025-09-30 02:22:19 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $31,981.41
+2025-09-30 02:22:19 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.io.FileNotFoundException: .\test-data\testdata_cdcalculator.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.cit.utils.ExcelUtils.setCellData(ExcelUtils.java:105)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:22:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:22:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:22:21 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:22:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:22:25 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.cit.pages.CDCalculatorPage.enterDepositAmount(CDCalculatorPage.java:28)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:22:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:22:25 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:24:29 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:24:33 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:24:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:24:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $32,050.39
+2025-09-30 02:24:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $32,050.39
+2025-09-30 02:24:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:24:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:24:37 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:24:40 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:24:42 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:24:42 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $51,009.22
+2025-09-30 02:24:42 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $51,009.22
+2025-09-30 02:24:42 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:24:42 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:24:44 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:24:48 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:24:49 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:24:49 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $25,915.70
+2025-09-30 02:24:49 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $25,915.70
+2025-09-30 02:24:49 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:24:49 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:24:51 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:24:56 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:24:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:24:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $113,300.11
+2025-09-30 02:24:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $113,300.11
+2025-09-30 02:24:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:24:57 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:24:59 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:25:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:25:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:25:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $15,643.03
+2025-09-30 02:25:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $15,643.03
+2025-09-30 02:25:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:25:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:25:05 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:25:10 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:25:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:25:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $1.00
+2025-09-30 02:25:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $1.00
+2025-09-30 02:25:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:25:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:25:12 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:25:18 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:25:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:25:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $16,470,093.33
+2025-09-30 02:25:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $16,470,093.33
+2025-09-30 02:25:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:25:19 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:25:21 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:25:32 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:25:34 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:25:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $31,981.41
+2025-09-30 02:25:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $31,981.41
+2025-09-30 02:25:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:25:35 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:25:37 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:25:45 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:25:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:25:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,483.54
+2025-09-30 02:25:52 INFO  TC003_Test_CD_Calculator_Monthly_DDT:35 - ✅ Validation Passed - Expected = Actual = $30,483.54
+2025-09-30 02:25:53 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:25:53 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:25:56 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:26:01 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:26:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:26:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,483.54
+2025-09-30 02:26:03 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,483.85 | Actual: $30,483.54
+2025-09-30 02:26:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:26:03 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:26:04 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:26:08 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:26:09 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:26:09 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $30,301.38
+2025-09-30 02:26:09 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $30,301.38
+2025-09-30 02:26:09 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:26:09 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:26:11 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:26:15 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:26:16 INFO  TC003_Test_CD_Calculator_Monthly_DDT:29 - ✅ Successfully entered all inputs & clicked Submit
+2025-09-30 02:26:16 INFO  TC003_Test_CD_Calculator_Monthly_DDT:31 - Application Result -> $31,981.41
+2025-09-30 02:26:16 ERROR TC003_Test_CD_Calculator_Monthly_DDT:39 - ❌ Validation Failed - Expected: $30,301.50 | Actual: $31,981.41
+2025-09-30 02:26:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:26:17 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
+2025-09-30 02:26:18 INFO  TC003_Test_CD_Calculator_Monthly_DDT:42 - -------------------- Launching Application ---------------------
+2025-09-30 02:26:22 INFO  TC003_Test_CD_Calculator_Monthly_DDT:22 - ************** START: TC003_Test_CD_Calculator_Monthly ******************
+2025-09-30 02:26:22 ERROR TC003_Test_CD_Calculator_Monthly_DDT:46 - ⚠ Exception occurred in TC002_testCIDaily:
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.cit.pages.CDCalculatorPage.enterDepositAmount(CDCalculatorPage.java:28)
+	at com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT.verify_CD_calculator_Monthly(TC003_Test_CD_Calculator_Monthly_DDT.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-09-30 02:26:22 INFO  TC003_Test_CD_Calculator_Monthly_DDT:49 - ********** END: TC003_Test_CD_Calculator_Monthly **********
+2025-09-30 02:26:22 INFO  TC003_Test_CD_Calculator_Monthly_DDT:57 - ------------------- Browser closed -------------------
