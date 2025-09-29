@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="MyTestSuite" thread-count="5">
+<suite name="Master-suite">
 
     <listeners>
         <listener class-name="com.cit.utils.ExtentReportManager"/>
@@ -10,7 +10,9 @@
         <parameter name="OS" value="Windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.cit.tests.TestCDCalculator"/>
+            <!--<class name="com.cit.tests.TC001_Test_CD_Calculator_Page_Title"/>-->
+            <!--<class name="com.cit.tests.TC002_Test_CD_Calculator_Daily_DDT"/>-->
+            <class name="com.cit.tests.TC003_Test_CD_Calculator_Monthly_DDT"/>
         </classes>
     </test>
 

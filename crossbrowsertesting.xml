@@ -15,7 +15,7 @@
         <parameter name="OS" value="Windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.cit.tests.TestCDCalculator"/>
+            <class name="com.cit.tests.TC001_Test_CD_Calculator_Page_Title"/>
         </classes>
     </test>
 
@@ -23,7 +23,7 @@
         <parameter name="OS" value="Windows"/>
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="com.cit.tests.TestCDCalculator"/>
+            <class name="com.cit.tests.TC001_Test_CD_Calculator_Page_Title"/>
         </classes>
     </test>
 
@@ -32,7 +32,7 @@
         <parameter name="browser" value="edge"/>
         <parameter name="aut_url" value="https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator"/>
         <classes>
-            <class name="com.cit.tests.TestCDCalculator"/>
+            <class name="com.cit.tests.TC001_Test_CD_Calculator_Page_Title"/>
         </classes>
     </test>
 

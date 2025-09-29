@@ -1,4 +1,4 @@
-package com.cit.tests;
+package com.cit.testBase;
 
 import com.cit.pages.CDCalculatorPage;
 import org.apache.logging.log4j.LogManager;
@@ -11,8 +11,8 @@ import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 
@@ -24,14 +24,14 @@ public class BaseClass {
     protected Properties properties;
 
     @BeforeClass
-    void setup(){
+    public void setup(){
         logger = LogManager.getLogger(this.getClass()); // Create a logger for this specific class, so that logs show the class name automatically
         softAssert = new SoftAssert();
     }
 
     @BeforeMethod
     @Parameters({"browser","OS"})
-    void launchApplication(String br,String os) throws IOException {
+    public void launchApplication(String br,String os) throws IOException {
         switch (br.toLowerCase()){
             case "edge": driver = new EdgeDriver(); break;
             case "chrome": driver = new ChromeDriver();break;
@@ -39,6 +39,7 @@ public class BaseClass {
             default: logger.info("************ INVALID BROWSER ************");return;
         }
 
+        logger.info("-------------------- Launching Application ---------------------");
         FileInputStream fi = new FileInputStream("./src//test//resources//config.properties");
         properties = new Properties();
         properties.load(fi);
@@ -47,11 +48,13 @@ public class BaseClass {
         page = new CDCalculatorPage(driver);
         page.maximizeWindow();
         page.acceptCookies();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @AfterMethod
-    void tearDown(){
+    public void tearDown(){
         if (driver != null) {
+            logger.info("------------------- Browser closed -------------------");
             driver.quit();
         }
     }
