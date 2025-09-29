@@ -7,8 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC003_Test_CD_Calculator_Monthly_DDT extends BaseClass {
-
-
      @Test(dataProvider = "CompoundMonthlyTestData", dataProviderClass = DataProviders.class, priority = 2)
     public void verify_CD_calculator_Monthly(
             String row,
@@ -43,7 +41,7 @@ public class TC003_Test_CD_Calculator_Monthly_DDT extends BaseClass {
          Assert.assertEquals(actualRes, expectedRes, "Result mismatch! Check logs for details.");
 
         } catch (Exception e) {
-            logger.error("⚠ Exception occurred in TC002_testCIDaily:", e);
+            logger.error("⚠ Exception occurred in TC003_Test_CD_Calculator_Monthly:", e);
             Assert.fail("An exception occurred: " + e.getMessage());
         }finally {
         logger.info("********** END: TC003_Test_CD_Calculator_Monthly **********");
