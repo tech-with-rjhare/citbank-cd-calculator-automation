@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class TC001_Test_CD_Calculator_Page_Title extends BaseClass {
 
-    @Test()
+    @Test(groups = {"Smoke","Master","Regression"})
      public void TC001_testTitleOfPage(){
         logger.info("***** Start : TC001_Test_CD_Calculator_Page_Title  ****");
         String titleOfPage = "CD Calculator | Certificate of Deposit Calculator | CIT Bank";

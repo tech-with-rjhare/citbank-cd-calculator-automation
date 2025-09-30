@@ -6,8 +6,8 @@ import com.cit.utils.ExcelUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC003_Test_CD_Calculator_Monthly_DDT extends BaseClass {
-     @Test(dataProvider = "CompoundMonthlyTestData", dataProviderClass = DataProviders.class, priority = 2)
+public class TC005_Test_CD_Calculator_Monthly_DDT extends BaseClass {
+     @Test(dataProvider = "CompoundMonthlyTestData", dataProviderClass = DataProviders.class, priority = 2,groups = {"Sanity","Regression","Master"})
     public void verify_CD_calculator_Monthly(
             String row,
             String depositAmount,
