@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class TC003_Test_CD_Calculator_Daily_DDT extends BaseClass {
 
-    @Test(dataProvider = "CompoundDailyTestData",dataProviderClass = DataProviders.class,priority = 1,groups = {"Regression","Master"})
+    @Test(dataProvider = "CompoundDailyTestData",dataProviderClass = DataProviders.class,priority = 1,groups = {"DDT","Master"})
     public void verify_CD_calculator_Daily(
             String depositAmount,
             String lengthOfCD,

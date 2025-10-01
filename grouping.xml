@@ -18,6 +18,7 @@
 
         <parameter name="OS" value="Windows"/>
         <parameter name="browser" value="chrome"/>
+        <parameter name="username" value="Rakesh Jhare"/>
         <classes>
             <class name="com.cit.tests.TC001_Test_CD_Calculator_Page_Title"/>
             <class name="com.cit.tests.TC002_Test_CD_Calculator_Daily"/>
