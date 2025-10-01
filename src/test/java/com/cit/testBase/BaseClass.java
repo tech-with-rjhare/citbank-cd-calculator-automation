@@ -23,13 +23,13 @@ public class BaseClass {
     protected Logger logger;
     protected Properties properties;
 
-    @BeforeClass
+    @BeforeClass(groups = {"Smoke","Sanity","Regression","Master"})
     public void setup(){
         logger = LogManager.getLogger(this.getClass()); // Create a logger for this specific class, so that logs show the class name automatically
         softAssert = new SoftAssert();
     }
 
-    @BeforeMethod
+    @BeforeMethod(groups = {"Smoke","Sanity","Regression","Master"})
     @Parameters({"browser","OS"})
     public void launchApplication(String br,String os) throws IOException {
         switch (br.toLowerCase()){
@@ -51,7 +51,7 @@ public class BaseClass {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    @AfterMethod
+    @AfterMethod(groups = {"Smoke","Sanity","Regression","Master"})
     public void tearDown(){
         if (driver != null) {
             logger.info("------------------- Browser closed -------------------");
