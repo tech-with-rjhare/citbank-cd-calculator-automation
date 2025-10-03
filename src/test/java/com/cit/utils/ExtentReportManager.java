@@ -74,7 +74,7 @@ public class ExtentReportManager implements ITestListener{
 
     public void onTestFailure(ITestResult result) {
 
-        test = extent.createTest(result.getName());
+        test = extent.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups());
         test.log(Status.FAIL, "❌ Test Failed: " + result.getName());
         test.log(Status.INFO, result.getThrowable().getMessage());
@@ -90,7 +90,7 @@ public class ExtentReportManager implements ITestListener{
 
     public void onTestSkipped(ITestResult result) {
 
-        test = extent.createTest(result.getName());
+        test = extent.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups());
         test.log(Status.SKIP, "⚠️ Test Skipped: " + result.getName());
         test.log(Status.INFO, result.getThrowable().getMessage());
