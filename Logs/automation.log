@@ -18,3 +18,110 @@
 2025-10-04 01:02:01 INFO  TC008_Test_CD_Calculator_yearly:48 - -------------------- Launching Application ---------------------
 2025-10-04 01:02:07 INFO  TC008_Test_CD_Calculator_yearly:20 - ✅ Validation Passed - Expected = Actual = $67,672.41
 2025-10-04 01:02:07 INFO  TC008_Test_CD_Calculator_yearly:63 - ------------------- Browser closed -------------------
+2025-10-05 01:18:43 INFO  TC001_Test_CD_Calculator_Page_Title:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:18:50 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:18:50 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-10-05 01:18:50 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:18:50 INFO  TC001_Test_CD_Calculator_Page_Title:105 - ------------------- Browser closed -------------------
+2025-10-05 01:18:52 INFO  TC002_Test_CD_Calculator_Daily:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:18:58 INFO  TC002_Test_CD_Calculator_Daily:21 - ✅ Validation Passed - Expected = Actual = $68,469.55
+2025-10-05 01:18:58 INFO  TC002_Test_CD_Calculator_Daily:105 - ------------------- Browser closed -------------------
+2025-10-05 01:19:00 INFO  TC004_Test_CD_Calculator_Monthly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:19:07 ERROR TC004_Test_CD_Calculator_Monthly:23 - ❌ Validation Failed - Expected: $68,401.7 | Actual: $68,401.71
+2025-10-05 01:19:07 INFO  TC004_Test_CD_Calculator_Monthly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:19:09 INFO  TC006_Test_CD_Calculator_quarterly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:19:16 INFO  TC006_Test_CD_Calculator_quarterly:20 - ✅ Validation Passed - Expected = Actual = $68,263.41
+2025-10-05 01:19:16 INFO  TC006_Test_CD_Calculator_quarterly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:19:18 INFO  TC007_Test_CD_Calculator_halfYearly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:19:24 INFO  TC007_Test_CD_Calculator_halfYearly:20 - ✅ Validation Passed - Expected = Actual = $68,332.23
+2025-10-05 01:19:24 INFO  TC007_Test_CD_Calculator_halfYearly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:19:25 INFO  TC008_Test_CD_Calculator_yearly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:19:31 INFO  TC008_Test_CD_Calculator_yearly:20 - ✅ Validation Passed - Expected = Actual = $67,672.41
+2025-10-05 01:19:31 INFO  TC008_Test_CD_Calculator_yearly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:28:19 INFO  TC001_Test_CD_Calculator_Page_Title:58 - ************ INVALID Operating System ************
+2025-10-05 01:28:19 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:28:19 INFO  TC002_Test_CD_Calculator_Daily:58 - ************ INVALID Operating System ************
+2025-10-05 01:28:19 INFO  TC004_Test_CD_Calculator_Monthly:58 - ************ INVALID Operating System ************
+2025-10-05 01:28:19 INFO  TC006_Test_CD_Calculator_quarterly:58 - ************ INVALID Operating System ************
+2025-10-05 01:28:19 INFO  TC007_Test_CD_Calculator_halfYearly:58 - ************ INVALID Operating System ************
+2025-10-05 01:28:19 INFO  TC008_Test_CD_Calculator_yearly:58 - ************ INVALID Operating System ************
+2025-10-05 01:28:45 INFO  TC001_Test_CD_Calculator_Page_Title:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:28:50 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:28:51 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-10-05 01:28:51 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:28:51 INFO  TC001_Test_CD_Calculator_Page_Title:105 - ------------------- Browser closed -------------------
+2025-10-05 01:28:53 INFO  TC002_Test_CD_Calculator_Daily:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:28:59 INFO  TC002_Test_CD_Calculator_Daily:21 - ✅ Validation Passed - Expected = Actual = $68,469.55
+2025-10-05 01:28:59 INFO  TC002_Test_CD_Calculator_Daily:105 - ------------------- Browser closed -------------------
+2025-10-05 01:29:01 INFO  TC004_Test_CD_Calculator_Monthly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:29:07 ERROR TC004_Test_CD_Calculator_Monthly:23 - ❌ Validation Failed - Expected: $68,401.7 | Actual: $68,401.71
+2025-10-05 01:29:07 INFO  TC004_Test_CD_Calculator_Monthly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:29:09 INFO  TC006_Test_CD_Calculator_quarterly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:29:17 INFO  TC006_Test_CD_Calculator_quarterly:20 - ✅ Validation Passed - Expected = Actual = $68,263.41
+2025-10-05 01:29:17 INFO  TC006_Test_CD_Calculator_quarterly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:29:18 INFO  TC007_Test_CD_Calculator_halfYearly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:29:25 INFO  TC007_Test_CD_Calculator_halfYearly:20 - ✅ Validation Passed - Expected = Actual = $68,332.23
+2025-10-05 01:29:25 INFO  TC007_Test_CD_Calculator_halfYearly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:29:26 INFO  TC008_Test_CD_Calculator_yearly:93 - -------------------- Launching Application ---------------------
+2025-10-05 01:29:32 INFO  TC008_Test_CD_Calculator_yearly:20 - ✅ Validation Passed - Expected = Actual = $67,672.41
+2025-10-05 01:29:32 INFO  TC008_Test_CD_Calculator_yearly:105 - ------------------- Browser closed -------------------
+2025-10-05 01:43:44 INFO  TC001_Test_CD_Calculator_Page_Title:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:43:50 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:43:50 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-10-05 01:43:50 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:43:50 INFO  TC001_Test_CD_Calculator_Page_Title:106 - ------------------- Browser closed -------------------
+2025-10-05 01:43:53 INFO  TC002_Test_CD_Calculator_Daily:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:44:01 INFO  TC002_Test_CD_Calculator_Daily:21 - ✅ Validation Passed - Expected = Actual = $68,469.55
+2025-10-05 01:44:01 INFO  TC002_Test_CD_Calculator_Daily:106 - ------------------- Browser closed -------------------
+2025-10-05 01:44:03 INFO  TC004_Test_CD_Calculator_Monthly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:44:11 ERROR TC004_Test_CD_Calculator_Monthly:23 - ❌ Validation Failed - Expected: $68,401.7 | Actual: $68,401.71
+2025-10-05 01:44:12 INFO  TC004_Test_CD_Calculator_Monthly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:44:14 INFO  TC006_Test_CD_Calculator_quarterly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:44:22 INFO  TC006_Test_CD_Calculator_quarterly:20 - ✅ Validation Passed - Expected = Actual = $68,263.41
+2025-10-05 01:44:22 INFO  TC006_Test_CD_Calculator_quarterly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:44:25 INFO  TC007_Test_CD_Calculator_halfYearly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:44:32 INFO  TC007_Test_CD_Calculator_halfYearly:20 - ✅ Validation Passed - Expected = Actual = $68,332.23
+2025-10-05 01:44:32 INFO  TC007_Test_CD_Calculator_halfYearly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:44:34 INFO  TC008_Test_CD_Calculator_yearly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:44:41 INFO  TC008_Test_CD_Calculator_yearly:20 - ✅ Validation Passed - Expected = Actual = $67,672.41
+2025-10-05 01:44:41 INFO  TC008_Test_CD_Calculator_yearly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:45:14 INFO  TC001_Test_CD_Calculator_Page_Title:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:45:20 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:45:20 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-10-05 01:45:20 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:45:20 INFO  TC001_Test_CD_Calculator_Page_Title:106 - ------------------- Browser closed -------------------
+2025-10-05 01:45:23 INFO  TC002_Test_CD_Calculator_Daily:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:45:30 INFO  TC002_Test_CD_Calculator_Daily:21 - ✅ Validation Passed - Expected = Actual = $68,469.55
+2025-10-05 01:45:30 INFO  TC002_Test_CD_Calculator_Daily:106 - ------------------- Browser closed -------------------
+2025-10-05 01:45:32 INFO  TC004_Test_CD_Calculator_Monthly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:45:39 ERROR TC004_Test_CD_Calculator_Monthly:23 - ❌ Validation Failed - Expected: $68,401.7 | Actual: $68,401.71
+2025-10-05 01:45:40 INFO  TC004_Test_CD_Calculator_Monthly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:45:42 INFO  TC006_Test_CD_Calculator_quarterly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:45:50 INFO  TC006_Test_CD_Calculator_quarterly:20 - ✅ Validation Passed - Expected = Actual = $68,263.41
+2025-10-05 01:45:50 INFO  TC006_Test_CD_Calculator_quarterly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:45:52 INFO  TC007_Test_CD_Calculator_halfYearly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:46:00 INFO  TC007_Test_CD_Calculator_halfYearly:20 - ✅ Validation Passed - Expected = Actual = $68,332.23
+2025-10-05 01:46:00 INFO  TC007_Test_CD_Calculator_halfYearly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:46:02 INFO  TC008_Test_CD_Calculator_yearly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:46:09 INFO  TC008_Test_CD_Calculator_yearly:20 - ✅ Validation Passed - Expected = Actual = $67,672.41
+2025-10-05 01:46:09 INFO  TC008_Test_CD_Calculator_yearly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:49:57 INFO  TC001_Test_CD_Calculator_Page_Title:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:50:04 INFO  TC001_Test_CD_Calculator_Page_Title:12 - ***** Start : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:50:05 INFO  TC001_Test_CD_Calculator_Page_Title:15 - Application Result -> CD Calculator | Certificate of Deposit Calculator | CIT Bank
+2025-10-05 01:50:05 INFO  TC001_Test_CD_Calculator_Page_Title:16 - ***** End : TC001_Test_CD_Calculator_Page_Title  ****
+2025-10-05 01:50:05 INFO  TC001_Test_CD_Calculator_Page_Title:106 - ------------------- Browser closed -------------------
+2025-10-05 01:50:08 INFO  TC002_Test_CD_Calculator_Daily:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:50:15 INFO  TC002_Test_CD_Calculator_Daily:21 - ✅ Validation Passed - Expected = Actual = $68,469.55
+2025-10-05 01:50:15 INFO  TC002_Test_CD_Calculator_Daily:106 - ------------------- Browser closed -------------------
+2025-10-05 01:50:18 INFO  TC004_Test_CD_Calculator_Monthly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:50:25 ERROR TC004_Test_CD_Calculator_Monthly:23 - ❌ Validation Failed - Expected: $68,401.7 | Actual: $68,401.71
+2025-10-05 01:50:26 INFO  TC004_Test_CD_Calculator_Monthly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:50:28 INFO  TC006_Test_CD_Calculator_quarterly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:50:37 INFO  TC006_Test_CD_Calculator_quarterly:20 - ✅ Validation Passed - Expected = Actual = $68,263.41
+2025-10-05 01:50:37 INFO  TC006_Test_CD_Calculator_quarterly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:50:39 INFO  TC007_Test_CD_Calculator_halfYearly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:50:46 INFO  TC007_Test_CD_Calculator_halfYearly:20 - ✅ Validation Passed - Expected = Actual = $68,332.23
+2025-10-05 01:50:46 INFO  TC007_Test_CD_Calculator_halfYearly:106 - ------------------- Browser closed -------------------
+2025-10-05 01:50:49 INFO  TC008_Test_CD_Calculator_yearly:94 - -------------------- Launching Application ---------------------
+2025-10-05 01:50:56 INFO  TC008_Test_CD_Calculator_yearly:20 - ✅ Validation Passed - Expected = Actual = $67,672.41
+2025-10-05 01:50:56 INFO  TC008_Test_CD_Calculator_yearly:106 - ------------------- Browser closed -------------------
