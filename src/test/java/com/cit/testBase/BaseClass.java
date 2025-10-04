@@ -5,17 +5,21 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -30,25 +34,60 @@ public class BaseClass {
     protected Properties properties;
 
     @BeforeClass(groups = {"Smoke","Sanity","Regression","Master"})
-    public void setup(){
+    public void setup() throws IOException{
         logger = LogManager.getLogger(this.getClass()); // Create a logger for this specific class, so that logs show the class name automatically
         softAssert = new SoftAssert();
+        FileInputStream fi = new FileInputStream("./src//test//resources//config.properties");
+        properties = new Properties();
+        properties.load(fi);
     }
 
     @BeforeMethod(groups = {"Smoke","Sanity","Regression","Master"})
     @Parameters({"browser","OS"})
     public void launchApplication(String br,String os) throws IOException {
-        switch (br.toLowerCase()){
-            case "edge": driver = new EdgeDriver(); break;
-            case "chrome": driver = new ChromeDriver();break;
-            case "firefox": driver = new FirefoxDriver(); break;
-            default: logger.info("************ INVALID BROWSER ************");return;
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        URL remoteURL = new URL("http://192.168.1.37:4444/wd/hub");
+
+        if(properties.getProperty("execution_env").equalsIgnoreCase("remote")) {
+            switch (os.toLowerCase()) {
+                case "window": capabilities.setPlatform(Platform.WIN11); break;
+                case "mac": capabilities.setPlatform(Platform.MAC); break;
+                case "linux": capabilities.setPlatform(Platform.LINUX);break;
+                default: {System.out.println("No such operating system found");
+                    logger.info("************ INVALID Operating System ************");
+                    return;}
+            }
+
+            switch (br.toLowerCase()){
+                case "chrome": capabilities.setBrowserName("chrome"); break;
+                case "edge": capabilities.setBrowserName("edge"); break;
+                case "firefox": capabilities.setBrowserName("firefox"); break;
+                default: { System.out.println("No such browser found");
+                    logger.info("************ INVALID BROWSER ************");
+                    return;
+                }
+            }
+            driver = new RemoteWebDriver(remoteURL,capabilities);
+        }
+
+        if(properties.getProperty("execution_env").equalsIgnoreCase("local")) {
+            switch (br.toLowerCase()) {
+                case "edge":
+                    driver = new EdgeDriver();
+                    break;
+                case "chrome":
+                    driver = new ChromeDriver();
+                    break;
+                case "firefox":
+                    driver = new FirefoxDriver();
+                    break;
+                default:
+                    logger.info("************ INVALID BROWSER ************");
+                    return;
+            }
         }
 
         logger.info("-------------------- Launching Application ---------------------");
-        FileInputStream fi = new FileInputStream("./src//test//resources//config.properties");
-        properties = new Properties();
-        properties.load(fi);
 
         driver.get(properties.getProperty("aut_url"));
         page = new CDCalculatorPage(driver);
