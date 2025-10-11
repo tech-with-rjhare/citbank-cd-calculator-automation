@@ -3,9 +3,9 @@
 <suite name="Grouping-Suite">
     <groups>
         <run>
-           <!-- <include name="Smoke"/> -->
+           <include name="Smoke"/> 
             <!-- <include name="Sanity"/>-->
-             <include name="Regression"/>
+             <!-- <include name="Regression"/> -->
             <!--  <include name="Master"/>-->
         </run>
     </groups>
