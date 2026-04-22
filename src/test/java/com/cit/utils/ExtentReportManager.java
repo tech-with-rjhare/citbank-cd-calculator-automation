@@ -106,12 +106,36 @@ public class ExtentReportManager implements ITestListener{
         extent.flush();
         String ExtentReportFilePath = System.getProperty("user.dir")+"\\reports\\"+reportName;
 
-        File extentReport = new File(ExtentReportFilePath);
+		File extentReport = new File(ExtentReportFilePath);
+
+		try {
+		    boolean isCI = System.getenv("GITHUB_ACTIONS") != null
+		            || "true".equalsIgnoreCase(System.getenv("CI"));
+		
+		    // CI (GitHub Actions) me browser open nahi karna
+		    if (isCI) {
+		        System.out.println("CI detected: skipping Desktop.browse() for Extent report: " + extentReport.getAbsolutePath());
+		        return;
+		    }
+		
+		    // Local machine pe hi open karo, and only if supported
+		    if (java.awt.Desktop.isDesktopSupported()
+		            && java.awt.Desktop.getDesktop().isSupported(java.awt.Desktop.Action.BROWSE)) {
+		        java.awt.Desktop.getDesktop().browse(extentReport.toURI());
+		    } else {
+		        System.out.println("Desktop/BROWSE not supported on this platform. Report saved at: " + extentReport.getAbsolutePath());
+		    }
+		
+		} catch (Exception e) {
+		    e.printStackTrace();
+		}
+
+        /*File extentReport = new File(ExtentReportFilePath);
         try {
             Desktop.getDesktop().browse(extentReport.toURI());
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         /*
         try {
