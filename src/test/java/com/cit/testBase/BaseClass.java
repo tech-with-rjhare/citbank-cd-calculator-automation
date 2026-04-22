@@ -45,6 +45,14 @@ public class BaseClass {
     @BeforeMethod(groups = {"Smoke","Sanity","Regression","Master"})
     @Parameters({"browser","OS"})
     public void launchApplication(String br,String os) throws IOException {
+
+        
+        boolean isCI = System.getenv("GITHUB_ACTIONS") != null || "true".equalsIgnoreCase(System.getenv("CI"));
+        if (isCI) {
+            properties.setProperty("execution_env", "local");
+            logger.info("CI detected: forcing execution_env=local");
+        }
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         URL remoteURL = new URL("http://192.168.1.37:4444/wd/hub");
 
