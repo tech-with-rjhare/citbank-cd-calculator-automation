@@ -99,10 +99,16 @@ public class BaseClass {
 
         driver.get(properties.getProperty("aut_url"));
         page = new CDCalculatorPage(driver);
-        page.maximizeWindow();
-        page.acceptCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
+        boolean isCI = System.getenv("GITHUB_ACTIONS") != null || "true".equalsIgnoreCase(System.getenv("CI"));
+
+        if (isCI) {
+            driver.manage().window().setSize(new org.openqa.selenium.Dimension(1920, 1080)); // stable workaround [3](https://forum.robotframework.org/t/maximize-window-chromedriver-133/8416)[2](https://issues.chromium.org/issues/394760806)
+        } else {
+            page.maximizeWindow();
+        }
+                page.acceptCookies();
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            }
 
     @AfterMethod(groups = {"Smoke","Sanity","Regression","Master"})
     public void tearDown(){
